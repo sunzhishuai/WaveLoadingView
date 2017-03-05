@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.reliance.waveloadingview.MainActivity">
+
+    <com.reliance.waveloadingview.WaveLoading
+        android:layout_gravity="center_horizontal"
+        app:wave_bg="@mipmap/loading_bg"
+        android:id="@+id/wl_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <com.reliance.waveloadingview.WaveLoading
+        android:layout_gravity="center_horizontal"
+        app:wave_bg="@mipmap/loading_bg"
+        app:loading_view_shape="circle"
+        android:id="@+id/wl_view2"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+</LinearLayout>

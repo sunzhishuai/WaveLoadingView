@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="wave_bg" format="reference" />
+    <attr name="wave_color" format="color" />
+    <attr name="percentage_text_size" format="dimension" />
+    <attr name="percentage_text_color" format="color" />
+
+    <attr name="wave_height" format="dimension" />
+    <attr name="wave_width" format="dimension" />
+
+    <attr name="loading_view_shape" format="enum">
+        <enum name="circle" value="100" />
+        <enum name="normal" value="200" />
+    </attr>
+    <declare-styleable name="WaveLoading">
+        <attr name="wave_bg" />
+        <attr name="wave_color" />
+        <attr name="percentage_text_size" />
+        <attr name="percentage_text_color" />
+        <attr name="loading_view_shape" />
+        <attr name="wave_height" />
+        <attr name="wave_width" />
+    </declare-styleable>
+</resources>
